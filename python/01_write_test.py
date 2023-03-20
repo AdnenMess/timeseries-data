@@ -1,7 +1,7 @@
 import pandas as pd
 import datetime as dt
 
-# Import the new influxdb API client
+# Import the new influxdb API client (pip install influxdb_client)
 import influxdb_client
 from influxdb_client.client.write_api import SYNCHRONOUS
 

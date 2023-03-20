@@ -1,11 +1,11 @@
 version: '2'
 services:
   influxdb:
-    image: influxdb:2.0
+    image: influxdb:2.6
     ports:
       - '8086:8086' 
     volumes:
-      - ./data:/var/lib/influxdb2
+      - ./Data:/var/lib/influxdb2
       - ./config:/etc/influxdb2
     environment:
       - DOCKER_INFLUXDB_INIT_MODE=setup
