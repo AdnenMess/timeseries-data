@@ -6,7 +6,7 @@ import influxdb_client.client.influxdb_client
 
 client = influxdb_client.InfluxDBClient(
    url='http://localhost:8086',
-   token='lTUKuRE46dJw8Yj_AmYtQHELsnfNM1eGVdJkYUj_Q_Ddq7yqCScDlbt9PYdu-RR_OW-NX9S_GaxNqXz7iAECCw==',
+   token='4dBQ5ZpeBq65N7EPfegmLOxwAwmWc6P_E5R1joJ_d8wFW2tpxMr2DzBEbLKsf_s4wqe1mG4uyobDmSw2cSe_5g==',
    org='my-org'
 )
 
