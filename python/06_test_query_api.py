@@ -3,7 +3,7 @@ import json
 import pandas as pd
 from pandas import json_normalize
 
-payload = {'Key': '1dd466067f114baba4a81103211309', 'q': 'Berlin', 'aqi': 'yes'}
+payload = {'Key': '9999b5e5e428888f85c142633230000', 'q': 'Berlin', 'aqi': 'yes'}
 r = requests.get("http://api.weatherapi.com/v1/current.json", params=payload)
 
 # Get the json from the request's result
